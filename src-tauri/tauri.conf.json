@@ -1,8 +1,8 @@
 {
   "$schema": "../node_modules/@tauri-apps/cli/config.schema.json",
-  "productName": "SJMCL",
+  "productName": "GMCL",
   "version": "0.8.0",
-  "identifier": "SJMCL",
+  "identifier": "GMCL",
   "build": {
     "frontendDist": "../out",
     "devUrl": "http://localhost:3000",
