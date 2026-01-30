@@ -21,11 +21,11 @@ source_x86_64=("${_baseurl}/${_source}")
 source_aarch64=("${_baseurl}/${_source}")
 depends=('cairo' 'desktop-file-utils' 'gdk-pixbuf2' 'glib2' 'gtk3' 'hicolor-icon-theme' 'libsoup' 'pango' 'webkit2gtk-4.1')
 options=('!strip' '!emptydirs')
-provides=('sjmcl')
-conflicts=('sjmcl')
+provides=('gmcl')
+conflicts=('gmcl')
 
 package() {
   bsdtar -xf data.tar.gz -C "${pkgdir}"
-  chmod +x ${pkgdir}/usr/bin/SJMCL
+  chmod +x ${pkgdir}/usr/bin/GMCL
   install -Dm 644 "${srcdir}/LICENSE.EXTRA" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE.EXTRA"
 }
