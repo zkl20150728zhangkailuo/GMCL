@@ -2,13 +2,13 @@
 # Maintainer: xpe-online <xpecnh2n@gmail.com>
 # Maintainer: raindropqwq <raindropqwq@outlook.com>
 
-pkgname=sjmcl-bin
-pkgdesc='🌟 A Minecraft launcher from @SJMC-Dev'
+pkgname=gmcl
+pkgdesc='GOOD MINECRAFT LAUNCHER'
 pkgver=0.0.0
 pkgrel=1
 arch=('x86_64' 'aarch64')
 license=(GPL-3.0,custom:LICENSE.EXTRA)
-url='https://github.com/UNIkeEN/SJMCL'
+url='https://github.com/zkl20150728zhangkailuo/GMCL'
 _baseurl="${url}/releases/download/v${pkgver}"
 _source="SJMCL_${pkgver}_linux_${CARCH}.deb"
 
